@@ -1,0 +1,158 @@
+/* SpendWise Expense Tracker Design Tokens & Global Styles */
+
+:root {
+  /* Primary Colors */
+  --color-primary: #003EC7;
+  --color-primary-container: #0052FF;
+  --color-on-primary: #FFFFFF;
+  --color-on-primary-container: #DFE3FF;
+  --color-primary-fixed: #DDE1FF;
+  --color-primary-fixed-dim: #B7C4FF;
+  --color-on-primary-fixed-variant: #0038B6;
+
+  /* Surface & Background Colors */
+  --color-bg: #F7F9FB;
+  --color-surface-lowest: #FFFFFF;
+  --color-surface-low: #F2F4F6;
+  --color-surface: #ECEEF0;
+  --color-surface-high: #E6E8EA;
+  --color-surface-highest: #E0E3E5;
+  --color-surface-variant: #E0E3E5;
+  --color-inverse-surface: #0F172A;
+  --color-inverse-on-surface: #EFF1F3;
+
+  /* Typography & Line Colors */
+  --color-on-surface: #191C1E;
+  --color-on-surface-variant: #434656;
+  --color-outline: #737688;
+  --color-outline-variant: #C3C5D9;
+
+  /* Secondary & Tertiary Colors */
+  --color-secondary: #565E74;
+  --color-secondary-container: #DAE2FD;
+  --color-on-secondary-container: #5C647A;
+  --color-tertiary: #3F4F65;
+  --color-tertiary-container: #57677E;
+  --color-tertiary-fixed: #D3E4FE;
+  --color-on-tertiary-container: #D6E6FF;
+
+  /* Feedback Colors */
+  --color-error: #BA1A1A;
+  --color-error-container: #FFDAD6;
+  --color-on-error-container: #93000A;
+
+  /* Border Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-level1: 0px 4px 6px -1px rgba(0, 0, 0, 0.05), 0px 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-level2: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
+
+  /* Spacing Scale */
+  --spacing-xs: 4px;
+  --spacing-base: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
+  --spacing-xl: 64px;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --color-chart-surface: rgba(242, 244, 246, 0.4);
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --color-bg: #101820;
+  --color-surface-lowest: #19232d;
+  --color-surface-low: #202c37;
+  --color-surface: #293642;
+  --color-surface-high: #33424e;
+  --color-surface-highest: #3d4d59;
+  --color-surface-variant: #3d4d59;
+  --color-inverse-surface: #0b1117;
+  --color-inverse-on-surface: #e8eef3;
+  --color-on-surface: #edf2f6;
+  --color-on-surface-variant: #b8c3cc;
+  --color-outline: #8999a6;
+  --color-outline-variant: #465662;
+  --color-secondary: #b8c3cc;
+  --color-secondary-container: #354c69;
+  --color-on-secondary-container: #d8e6fa;
+  --color-tertiary: #b7cbe2;
+  --color-tertiary-container: #536b84;
+  --color-tertiary-fixed: #31465b;
+  --color-on-tertiary-container: #d6e6ff;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+  --color-chart-surface: rgba(32, 44, 55, 0.7);
+}
+
+/* Global Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-on-surface);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Material Symbols Icon Configuration */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.icon-fill {
+  font-variation-settings: 'FILL' 1;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-outline-variant);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-outline);
+}
