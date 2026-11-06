@@ -77,10 +77,10 @@ Through this project, I'm learning and practising:
 
 **This project is currently under development.**
 
-SpendWise Tracker is a personal learning project created solely for practising and improving my frontend development skills. It is not intended to be used as a production-ready financial management application.
+This is my personal learning project created solely for practising and improving my frontend development skills. It is not intended to be used as a production-ready financial management application.
 
 More features and improvements will be added as I continue learning and developing.
 
 ---
 
-**Built with ❤️ as part of my frontend development journey.**
+**Built as part of my frontend development journey.**
