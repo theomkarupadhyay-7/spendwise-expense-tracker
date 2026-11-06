@@ -1,16 +1,86 @@
-# React + Vite
+#  **SpendWise Tracker**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive expense tracking application designed to help users manage and monitor their daily expenses.
 
-Currently, two official plugins are available:
+SpendWise Tracker is a personal project I'm building to improve my frontend development skills through hands-on practice, UI development, and interactive application building.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Track daily expenses.
+- Add and manage expense entries.
+- Categorize expenses.
+- View expense summaries.
+- Simple and user-friendly interface.
+- Responsive design for different screen sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*Features are being developed and may change as the project progresses.*
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** [Add your framework/library]
+- **Styling:** [Add your styling technology]
+- **Language:** JavaScript
+- **Tools:** Git & GitHub
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd spendwise-tracker
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## 🎯 Project Purpose
+
+The primary purpose of SpendWise Tracker is to strengthen my understanding of frontend development by building a practical application.
+
+Through this project, I'm learning and practising:
+
+- Component-based development.
+- State management.
+- Handling user input and forms.
+- Dynamic rendering of data.
+- UI/UX design principles.
+- Responsive web development.
+
+## 📌 Future Improvements
+
+- Expense analytics and visual charts.
+- Monthly and weekly expense summaries.
+- Search and filter functionality.
+- Data persistence.
+- Improved UI and user experience.
+
+## ⚠️ Project Status
+
+**This project is currently under development.**
+
+SpendWise Tracker is a personal learning project created solely for practising and improving my frontend development skills. It is not intended to be used as a production-ready financial management application.
+
+More features and improvements will be added as I continue learning and developing.
+
+---
+
+**Built with ❤️ as part of my frontend development journey.**
