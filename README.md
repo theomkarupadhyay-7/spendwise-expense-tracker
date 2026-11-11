@@ -1,4 +1,4 @@
-#  **SpendWise Tracker**
+#  **SpendWise  Expense Tracker**
 
 A simple and intuitive expense tracking application designed to help users manage and monitor their daily expenses.
 
