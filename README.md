@@ -79,8 +79,6 @@ Through this project, I'm learning and practising:
 
 This is my personal learning project created solely for practising and improving my frontend development skills. It is not intended to be used as a production-ready financial management application.
 
-More features and improvements will be added as I continue learning and developing.
-
 ---
 
 **Built as part of my frontend development journey.**
